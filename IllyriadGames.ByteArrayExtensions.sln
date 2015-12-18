@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{440BD993-3367-4EA1-98DD-AF06499A3B08}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{24141B3B-1F1E-453D-972E-8AEDEFDF2152}"
+	ProjectSection(SolutionItems) = preProject
+		tools\key.snk = tools\key.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6820776E-4DD0-4800-864A-709DE3C1D39D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IllyriadGames.ByteArrayExtensions", "src\IllyriadGames.ByteArrayExtensions\IllyriadGames.ByteArrayExtensions.xproj", "{43D8A308-D809-4B15-9B85-B6BCFD7BEC32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C04A15E1-CCEE-4C90-812A-56D1C0402223}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IllyriadGames.ByteArrayExtensionsTests", "test\IllyriadGames.ByteArrayExtensionsTests\IllyriadGames.ByteArrayExtensionsTests.xproj", "{33004B30-916D-45A9-AAD0-AD59575E7FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IllyriadGames.ByteArrayExtensionsBenchmarks", "test\IllyriadGames.ByteArrayExtensionsBenchmarks\IllyriadGames.ByteArrayExtensionsBenchmarks.csproj", "{7C624F8A-E35D-428B-A566-EAD511C19385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D8A308-D809-4B15-9B85-B6BCFD7BEC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D8A308-D809-4B15-9B85-B6BCFD7BEC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D8A308-D809-4B15-9B85-B6BCFD7BEC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D8A308-D809-4B15-9B85-B6BCFD7BEC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33004B30-916D-45A9-AAD0-AD59575E7FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33004B30-916D-45A9-AAD0-AD59575E7FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33004B30-916D-45A9-AAD0-AD59575E7FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33004B30-916D-45A9-AAD0-AD59575E7FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C624F8A-E35D-428B-A566-EAD511C19385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C624F8A-E35D-428B-A566-EAD511C19385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C624F8A-E35D-428B-A566-EAD511C19385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C624F8A-E35D-428B-A566-EAD511C19385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43D8A308-D809-4B15-9B85-B6BCFD7BEC32} = {6820776E-4DD0-4800-864A-709DE3C1D39D}
+		{33004B30-916D-45A9-AAD0-AD59575E7FDC} = {C04A15E1-CCEE-4C90-812A-56D1C0402223}
+		{7C624F8A-E35D-428B-A566-EAD511C19385} = {C04A15E1-CCEE-4C90-812A-56D1C0402223}
+	EndGlobalSection
+EndGlobal

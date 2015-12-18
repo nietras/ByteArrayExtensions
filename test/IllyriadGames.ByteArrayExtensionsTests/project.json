@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "xunit.runner.aspnet": "2.0.0-aspnet-*",
+    "IllyriadGames.ByteArrayExtensions": "1.0.0-*"
+  },
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+  "compilationOptions": {
+    "allowUnsafe": true,
+    "keyFile": "../../tools/Key.snk"
+  },
+  "commands": {
+    "run": "IllyriadGames.ByteArrayExtensionsTests",
+    "test": "xunit.runner.aspnet -parallel none"
+  }
+}

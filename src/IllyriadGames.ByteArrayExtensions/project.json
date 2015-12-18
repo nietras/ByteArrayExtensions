@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0-beta-10",
+  "description": "Includes Hardware-accelerated byte[].VectorizedCopy Memory Copy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IllyriadGames/ByteArrayExtensions"
+  },
+  "title": "ByteArrayExtensions",
+  "authors": [ "Illyriad Games Ltd" ],
+  "tags": [ "" ],
+  "projectUrl": "https://github.com/IllyriadGames/ByteArrayExtensions/blob/master/LICENSE.md",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+  "copyright": "Copyright (c) 2015 Illyriad Games Ltd. All rights reserved.",
+  "requireLicenseAcceptance": true,
+  "dependencies": {
+    "System.Numerics.Vectors": "4.1.1-beta-23516"
+  },
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": { "System.Runtime": "4.0.0.0" }
+    },
+    "net46": { },
+    "netcore50": {
+      "dependencies": {
+        "System.Runtime": "4.0.21-*",
+        "System.Runtime.InteropServices": "4.0.21-*"
+      }
+    },
+    "dotnet5.4": {
+      "dependencies": {
+        "System.Runtime": "4.0.21-*",
+        "System.Runtime.InteropServices": "4.0.21-*"
+      }
+    }
+  },
+  "compilationOptions": {
+    "allowUnsafe": true,
+    "optimize": true,
+    "keyFile": "../../tools/Key.snk"
+  }
+}
