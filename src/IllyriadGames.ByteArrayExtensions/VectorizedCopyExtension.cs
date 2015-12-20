@@ -8,7 +8,7 @@ namespace IllyriadGames.ByteArrayExtensions
 {
     public static class VectorizedCopyExtension
     {
-        // Should be Jit'd to consts https://github.com/dotnet/coreclr/issues/1079
+        // Will be Jit'd to consts https://github.com/dotnet/coreclr/issues/1079
         private static readonly int _vectorSpan = Vector<byte>.Count;
         private static readonly int _vectorSpan2 = Vector<byte>.Count + Vector<byte>.Count;
         private static readonly int _vectorSpan3 = Vector<byte>.Count + Vector<byte>.Count + Vector<byte>.Count;
@@ -42,7 +42,7 @@ namespace IllyriadGames.ByteArrayExtensions
         {
 #if !DEBUG
             // Tests need to check even if IsHardwareAccelerated == false
-            // Check should be Jitted away https://github.com/dotnet/coreclr/issues/1079
+            // Check will be Jitted away https://github.com/dotnet/coreclr/issues/1079
             if (Vector.IsHardwareAccelerated)
             {
 #endif
