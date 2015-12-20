@@ -2,7 +2,9 @@ BenchmarkDotNet-Dev=v0.8.0.0+
 OS=Microsoft Windows NT 6.2.9200.0
 Processor=Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz, ProcessorCount=8
 HostCLR=MS.NET 4.0.30319.42000, Arch=64-bit  [RyuJIT]
-Type=MemCopyBench  Mode=Throughput  Platform=X64  Jit=RyuJit  .NET=HostFramework  toolchain=Classic  Runtime=Clr  Warmup=5  Target=10  
+Type=MemCopyBench  Mode=Throughput  Platform=X64  Jit=RyuJit  .NET=HostFramework  toolchain=Classic  Runtime=Clr  Warmup=5  Target=10
+
+
                   Method | IntParam |    AvrTime |    StdDev |           op/s |
 ------------------------ |--------- |----------- |---------- |--------------- |
                ArrayCopy |        0 |  4.3432 ns | 0.0825 ns | 230,324,244.88 |
