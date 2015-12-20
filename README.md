@@ -2,6 +2,10 @@
 
 Hardware-accelerated Vectorized Memory Copy faster than the .NET Framework's `Buffer.BlockCopy` and `Array.Copy` for copies under 1024 bytes.
 
+##Performance
+
+[![Performance Graph](http://aoa.blob.core.windows.net/aspnet/VectorizedCopy888.png)](http://aoa.blob.core.windows.net/aspnet/VectorizedCopy.png)
+
 ---
 ##Usage
 
