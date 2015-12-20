@@ -1,6 +1,8 @@
 #ByteArrayExtensions
 
-Hardware-accelerated Vectorized Memory Copy faster than the .NET Framework's `Buffer.BlockCopy` and `Array.Copy` for copies under 1024 bytes.
+Hardware-accelerated Vectorized Memory Copy faster than the .NET Framework's `Buffer.BlockCopy` and `Array.Copy` for copies under 1024 bytes. 
+
+CoreClr Issue: "Array.Copy & Buffer.BlockCopy x2 to x3 too slow for small copies" https://github.com/dotnet/coreclr/issues/2430)
 
 ##Performance
 
